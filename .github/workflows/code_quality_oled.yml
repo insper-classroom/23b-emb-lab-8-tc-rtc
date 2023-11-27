@@ -5,7 +5,7 @@ run-name: Checking code quality - OLED
 on: [push]
 
 env:
-  SRC_CODE: OLED-Xplained-Pro/src/main.c
+  SRC_CODE: RTOS-OLED-Xplained-Pro/src/main.c
 
 jobs:
   oled_code_quality:
