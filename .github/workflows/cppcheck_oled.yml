@@ -5,7 +5,8 @@ run-name: Cppcheck
 on: [push]
 
 env:
-  SRC_CODE: RTOS-OLED-Xplained-Pro/src/main.c
+
+  SRC_CODE: OLED-Xplained-Pro/src/main.c
 
 jobs:
   oled_cppcheck:
